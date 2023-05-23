@@ -11,15 +11,15 @@ A example of implementation on [Gazebo simulator](https://gazebosim.org/) in [RO
 
 The main controller is named `TurtleBotController` and receive a instance of `ModulesManager` for manage all modules, adding and accessing them, with this practice is possible to add new modules without change the main controller, or call a module from another module... A very flexible and scalable architecture!
 
-The main source code can be founded in [ros2_ws/gazeboexample/gazeboexample](./ros2_ws/gazeboexample/gazeboexample) folder. The **init**.py file has the main file entrypoint for the node module.
+The main source code can be founded in [ros2_ws/src/gazeboexample/gazeboexample](./ros2_ws/src/gazeboexample/gazeboexample) folder. The **init**.py file has the main file entrypoint for the node module.
 
 ### How to run:
 
 -   Install ROS2 and Gazebo
 -   Clone this repository
--   Run the command `colcon build --packages-select gazeboexample` in the root folder of the `ros2_ws/gazeboexample`
--   Run the command `source install/setup.bash` in the root folder of the `ros2_ws/gazeboexample`
--   Run the command `ros2 launch gazeboexample gazeboexampleendpoint` in the root folder of the `ros2_ws/gazeboexample`
+-   Run the command `colcon build --packages-select gazeboexample` in the root folder of the `ros2_ws/src/gazeboexample`
+-   Run the command `source install/setup.bash` in the root folder of the `ros2_ws/src/gazeboexample`
+-   Run the command `ros2 launch gazeboexample gazeboexampleendpoint` in the root folder of the `ros2_ws/src/gazeboexample`
 
 ### Positions objetives:
 
