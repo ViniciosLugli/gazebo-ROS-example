@@ -24,3 +24,4 @@ Following the path, the turtlebot will move like:
 ![Turtlebot path](assets/gazebo_demo_spots.png)
 
 ### Demo video:
+https://github.com/ViniciosLugli/gazebo-ROS-example/assets/40807526/f6ade1a5-95d1-488b-8cd9-b1c8fc59a6f6
