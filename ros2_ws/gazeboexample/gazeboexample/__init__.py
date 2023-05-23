@@ -1,7 +1,5 @@
+from src import PathController, TurtleBotController
 import rclpy
-from turtle_controller import TurtleBotController
-from path_controller import PathController
-
 
 def main(args=None):
     rclpy.init()
@@ -12,7 +10,3 @@ def main(args=None):
 
     turtle_controller.destroy_node()
     rclpy.shutdown()
-
-
-if __name__ == "__main__":
-    main()
